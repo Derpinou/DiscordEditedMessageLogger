@@ -1,0 +1,23 @@
+{
+  "name": "discordeditedmessagelogger",
+  "version": "1.0.0",
+  "description": "Bot discord qui log les messages édités dans un serveur spécifique",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Derpinou/DiscordEditedMessageLogger.git"
+  },
+  "author": "https://github.com/Derpinou/",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Derpinou/DiscordEditedMessageLogger/issues"
+  },
+  "homepage": "https://github.com/Derpinou/DiscordEditedMessageLogger#readme"
+}
