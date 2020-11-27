@@ -8,14 +8,14 @@ client
     })
     .on("messageUpdate", (oldMessage, newMessage) => {
         if (oldMessage.content !== newMessage.content) {
-            let channel = newMessage.channel.guild.channels.cache.get(config.log.channelID)
+            let channel = newMessage.channel.guild.channels.cache.get(config.log.channelID);
             if (channel) {
                 let embed = new MessageEmbed()
                     .addField("Auteur:", newMessage.author.tag)
                     .addField("Ancien message:",  oldMessage.content)
                     .addField("Nouveau message:",  newMessage.content)
                     .setTimestamp();
-                return channel.send(embed)
+                return channel.send(embed);
             }
         }
     })
